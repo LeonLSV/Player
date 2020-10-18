@@ -1,0 +1,20 @@
+.progres {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.progres__text p {
+  display: flex;
+  color: #7e67e9;
+  margin: 0;
+  font-size: 15px;
+  font-weight: bold;
+}
+.progres__progres {
+  background-color: #7e67e9;
+  width: 200px;
+  height: 5px;
+  border-radius: 5px;
+}

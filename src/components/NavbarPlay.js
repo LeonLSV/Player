@@ -14,18 +14,28 @@ class NavbarPlay extends React.Component {
   render() {
     return (
       <div className="navbar__container">
-        <Link to="/">
+        <div>
+          <Link to="/">
+            <FontAwesomeIcon
+              icon={faAngleDown}
+              className="navbar__container-img1"
+            />
+          </Link>
+        </div>
+        <div className="navbar__container-right">
           <FontAwesomeIcon
-            icon={faAngleDown}
-            className="navbar__container-img1"
+            icon={faShareAlt}
+            className="navbar__container-right-icon"
           />
-        </Link>
-        <FontAwesomeIcon icon={faShareAlt} className="navbar__container-img2" />
-        <FontAwesomeIcon icon={faHeart} className="navbar__container-img2" />
-        <FontAwesomeIcon
-          icon={faEllipsisV}
-          className="navbar__container-img2"
-        />
+          <FontAwesomeIcon
+            icon={faHeart}
+            className="navbar__container-right-icon"
+          />
+          <FontAwesomeIcon
+            icon={faEllipsisV}
+            className="navbar__container-right-icon"
+          />
+        </div>
       </div>
     );
   }
