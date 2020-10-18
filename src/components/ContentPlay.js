@@ -1,7 +1,9 @@
 import React from "react";
 import "./styles/ContentPlay.css";
 import NavbarPlay from "./NavbarPlay";
+import TextPlay from "./TextPlay";
 import Image from "./Image";
+import Player from "./Player";
 import turizo from "../images/turizo.jpg";
 import turizo1 from "../images/turizo1.jpg";
 import turizo2 from "../images/turizo2.jpg";
@@ -14,6 +16,8 @@ class ContentPlay extends React.Component {
       <div className="content_play">
         <NavbarPlay />
         <Image image={turizo} />
+        <TextPlay />
+        <Player />
       </div>
     );
   }

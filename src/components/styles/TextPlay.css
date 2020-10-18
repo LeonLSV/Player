@@ -1,0 +1,10 @@
+.content_text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+}
+.content_text p {
+  color: #9bb0e9;
+}
