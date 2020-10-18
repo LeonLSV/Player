@@ -1,3 +1,18 @@
 .buttons {
+  color: #4c4a7b;
+}
+.Player {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.play {
+  font-size: 30px;
   color: white;
+}
+.button_play {
+  background-color: #7e67e9;
+
+  padding: 15px;
+  border-radius: 50%;
 }

@@ -2,11 +2,7 @@ import React from "react";
 import "./styles/Navbar.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faArrowCircleLeft,
-  faSearch,
-  faAngleLeft,
-} from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faAngleLeft } from "@fortawesome/free-solid-svg-icons";
 
 class Navbar extends React.Component {
   render() {

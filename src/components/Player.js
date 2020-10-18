@@ -15,7 +15,9 @@ class Player extends React.Component {
       <div className="Player">
         <FontAwesomeIcon icon={faDownload} className="buttons" />
         <FontAwesomeIcon icon={faStepBackward} className="buttons" />
-        <FontAwesomeIcon icon={faPlay} className="buttons" />
+        <div className="button_play">
+          <FontAwesomeIcon icon={faPlay} className="buttons play" />
+        </div>
         <FontAwesomeIcon icon={faStepForward} className="buttons" />
         <FontAwesomeIcon icon={faBars} className="buttons" />
       </div>
