@@ -1,0 +1,36 @@
+.album__container {
+  color: white;
+  width: 160px;
+  height: 240px;
+  border-radius: 30px;
+  background-color: #30314d;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.5);
+  margin-right: 15px;
+}
+.album__container-img img {
+  width: 100%;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.album__container-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 15px;
+}
+.album__container-text h3 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.album__container-text p {
+  font-size: 13px;
+}
+.navbar__container-right-icon1 {
+  font-size: 15px;
+  color: #9bb0e9;
+  margin-top: 12px;
+  margin-right: 25px;
+}

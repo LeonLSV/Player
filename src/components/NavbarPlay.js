@@ -15,7 +15,7 @@ class NavbarPlay extends React.Component {
     return (
       <div className="navbar__container">
         <div>
-          <Link to="/">
+          <Link to="/playlist">
             <FontAwesomeIcon
               icon={faAngleDown}
               className="navbar__container-img1"
