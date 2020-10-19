@@ -2,7 +2,6 @@ import React from "react";
 import "./styles/ContentPlay.css";
 import NavbarAlbum from "./NavbarAlbum";
 import AlbumList from "./AlbumList";
-import turizo1 from "../images/turizo1.jpg";
 
 class ContentAlbum extends React.Component {
   render() {

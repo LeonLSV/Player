@@ -6,10 +6,6 @@ import Image from "./Image";
 import Player from "./Player";
 import Progres from "./Progres";
 import turizo from "../images/turizo.jpg";
-// import turizo1 from "../images/turizo1.jpg";
-// import turizo2 from "../images/turizo2.jpg";
-// import turizo3 from "../images/turizo3.jpg";
-// import turizo4 from "../images/turizo4.jpg";
 
 class ContentPlay extends React.Component {
   render() {
@@ -20,6 +16,9 @@ class ContentPlay extends React.Component {
         <TextPlay />
         <Progres />
         <Player />
+        <audio
+          src="https://leonsonidovirtual.com/wp-content/uploads/2020/10/y2mate.com-calvin_harris_flashback_radio_edit_oPAb_tIMifY.mp3"
+          controls></audio>
       </div>
     );
   }
