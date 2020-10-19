@@ -13,7 +13,9 @@
 .link {
   text-decoration: none;
   outline: none;
-  /* pointer-events: none; */
+}
+.link:hover {
+  text-decoration: none;
 }
 /* -------------------------------------- */
 .list__container-img {

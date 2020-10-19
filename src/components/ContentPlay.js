@@ -16,9 +16,6 @@ class ContentPlay extends React.Component {
         <TextPlay />
         <Progres />
         <Player />
-        <audio
-          src="https://leonsonidovirtual.com/wp-content/uploads/2020/10/y2mate.com-calvin_harris_flashback_radio_edit_oPAb_tIMifY.mp3"
-          controls></audio>
       </div>
     );
   }

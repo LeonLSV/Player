@@ -13,13 +13,33 @@ class Player extends React.Component {
   render() {
     return (
       <div className="Player">
-        <FontAwesomeIcon icon={faDownload} className="buttons" />
-        <FontAwesomeIcon icon={faStepBackward} className="buttons" />
+        <FontAwesomeIcon
+          icon={faDownload}
+          className="buttons"
+          onClick={() => console.log("presionado")}
+        />
+        <FontAwesomeIcon
+          icon={faStepBackward}
+          className="buttons"
+          onClick={() => console.log("presionado")}
+        />
         <div className="button_play">
-          <FontAwesomeIcon icon={faPlay} className="buttons play" />
+          <FontAwesomeIcon
+            icon={faPlay}
+            className="buttons play"
+            onClick={() => console.log("presionado")}
+          />
         </div>
-        <FontAwesomeIcon icon={faStepForward} className="buttons" />
-        <FontAwesomeIcon icon={faBars} className="buttons" />
+        <FontAwesomeIcon
+          icon={faStepForward}
+          className="buttons"
+          onClick={() => console.log("presionado")}
+        />
+        <FontAwesomeIcon
+          icon={faBars}
+          className="buttons"
+          onClick={() => console.log("presionado")}
+        />
       </div>
     );
   }
