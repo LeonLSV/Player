@@ -5,3 +5,14 @@
   flex-direction: column;
   /* justify-content: center; */
 }
+
+.scroll-album {
+  overflow-y: auto;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+}
+.scroll-album::-webkit-scrollbar {
+  width: 7px;
+  background: #30314d;
+}
