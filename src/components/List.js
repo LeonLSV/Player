@@ -13,43 +13,68 @@ class ContentNavbar extends React.Component {
     return (
       <div>
         <Navbar />
-        <List
-          title="Bailemos"
-          artist="Manuel Turizo/Sech"
-          image={turizo}
-          time="3:40"
-        />
-        <List
-          title="Culpables"
-          artist="Manuel Turizo"
-          image={turizo1}
-          time="4:16"
-        />
-        <List
-          title="Una Lady"
-          artist="Manuel Turizo"
-          image={turizo3}
-          time="3:34"
-        />
-        <List
-          title="Desconocidos"
-          artist="Manuel Turizo"
-          image={turizo4}
-          time="3:24"
-        />
-        <List
-          title="Aleluya"
-          artist="Manuel Turizo/Reik"
-          image={turizo2}
-          time="2:58"
-        />
-        <List
-          title="Te Quemaste"
-          artist="Manuel Turizo"
-          image={turizo1}
-          time="3:24"
-        />
-        <List title="Sola" artist="Manuel Turizo" image={turizo4} time="3:22" />
+        <div className="scroll-list">
+          <List
+            title="Bailemos"
+            artist="Manuel Turizo/Sech"
+            image={turizo}
+            time="3:40"
+          />
+          <List
+            title="Culpables"
+            artist="Manuel Turizo"
+            image={turizo1}
+            time="4:16"
+          />
+          <List
+            title="Una Lady"
+            artist="Manuel Turizo"
+            image={turizo3}
+            time="3:34"
+          />
+          <List
+            title="Desconocidos"
+            artist="Manuel Turizo"
+            image={turizo4}
+            time="3:24"
+          />
+          <List
+            title="Aleluya"
+            artist="Manuel Turizo/Reik"
+            image={turizo2}
+            time="2:58"
+          />
+          <List
+            title="Te Quemaste"
+            artist="Manuel Turizo"
+            image={turizo1}
+            time="3:24"
+          />
+          <List
+            title="Sola"
+            artist="Manuel Turizo"
+            image={turizo4}
+            time="3:22"
+          />
+          <List
+            title="Sola"
+            artist="Manuel Turizo"
+            image={turizo4}
+            time="3:22"
+          />
+          <List
+            title="Sola"
+            artist="Manuel Turizo"
+            image={turizo4}
+            time="3:22"
+          />
+          <List
+            title="Sola"
+            artist="Manuel Turizo"
+            image={turizo4}
+            time="3:22"
+          />
+        </div>
       </div>
     );
   }

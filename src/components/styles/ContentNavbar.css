@@ -5,3 +5,14 @@
   flex-direction: column;
   /* justify-content: center; */
 }
+
+.scroll-list {
+  overflow-y: auto;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+}
+.scroll-list::-webkit-scrollbar {
+  width: 7px;
+  background: #30314d;
+}
