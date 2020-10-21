@@ -1,12 +1,13 @@
 import React from "react";
-import "./styles/TextPlay.css";
+import { TextPlayContent, TextPlayP } from "./styled";
+
 class TextPlay extends React.Component {
   render() {
     return (
-      <div className="content_text">
+      <TextPlayContent>
         <h1>Bailemos</h1>
-        <p>Manuel Turizo</p>
-      </div>
+        <TextPlayP>Manuel Turizo</TextPlayP>
+      </TextPlayContent>
     );
   }
 }

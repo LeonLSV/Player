@@ -1,12 +1,11 @@
 import React from "react";
-import "./styles/ContentNavbar.css";
-import Navbar from "../components/Navbar";
+import Navbar from "../NavBar/Navbar";
 import List from "./ListItem";
-import turizo from "../images/turizo.jpg";
-import turizo1 from "../images/turizo1.jpg";
-import turizo2 from "../images/turizo2.jpg";
-import turizo3 from "../images/turizo3.jpg";
-import turizo4 from "../images/turizo4.jpg";
+import turizo from "../../images/turizo.jpg";
+import turizo1 from "../../images/turizo1.jpg";
+import turizo2 from "../../images/turizo2.jpg";
+import turizo3 from "../../images/turizo3.jpg";
+import turizo4 from "../../images/turizo4.jpg";
 
 class ContentNavbar extends React.Component {
   render() {

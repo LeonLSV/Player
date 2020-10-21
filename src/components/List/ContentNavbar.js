@@ -1,13 +1,13 @@
 import React from "react";
-import "./styles/ContentNavbar.css";
 import List from "./List";
+import { ContentNavBar } from "./styled";
 
 class ContentNavbar extends React.Component {
   render() {
     return (
-      <div className="content_navbar">
+      <ContentNavBar>
         <List />
-      </div>
+      </ContentNavBar>
     );
   }
 }

@@ -1,13 +1,14 @@
 import React from "react";
-import "./styles/Playlist.css";
-import ContentNavbar from "../components/ContentNavbar";
+import ContentNavbar from "../components/List/ContentNavbar";
+
+import { Container } from "./styled";
 
 class Playlist extends React.Component {
   render() {
     return (
-      <div className="play_container">
+      <Container>
         <ContentNavbar />
-      </div>
+      </Container>
     );
   }
 }

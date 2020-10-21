@@ -1,13 +1,14 @@
 import React from "react";
-import "./styles/Playlist.css";
-import ContentPlay from "../components/ContentPlay";
+import ContentPlay from "../components/PlayerContent/ContentPlay";
+
+import { Container } from "./styled";
 
 class Play extends React.Component {
   render() {
     return (
-      <div className="play_container">
+      <Container>
         <ContentPlay />
-      </div>
+      </Container>
     );
   }
 }

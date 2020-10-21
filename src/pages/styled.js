@@ -1,9 +1,6 @@
-body {
-  background-color: #46537f;
-  margin: 0;
-}
+import styled from "styled-components";
 
-.play_container {
+const Container = styled.div`
   margin: 20px auto;
   background: #2f304e;
   width: 22rem;
@@ -13,4 +10,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+`;
+
+export { Container };

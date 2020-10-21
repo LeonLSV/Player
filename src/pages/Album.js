@@ -1,13 +1,14 @@
 import React from "react";
-import "./styles/Playlist.css";
-import ContentAlbum from "../components/ContentAlbum";
+import ContentAlbum from "../components/AlbumContent/ContentAlbum";
+
+import { Container } from "./styled";
 
 class Album extends React.Component {
   render() {
     return (
-      <div className="play_container">
+      <Container>
         <ContentAlbum />
-      </div>
+      </Container>
     );
   }
 }

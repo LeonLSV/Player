@@ -1,11 +1,11 @@
 .navbar__container {
-  color: white;
+  /* color: white;
   display: flex;
   width: 100%;
   height: 70px;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 10px; */
 }
 .navbar__container h1 {
   font-size: 20px;
@@ -13,6 +13,7 @@
 .navbar__container-img1 {
   font-size: 25px;
   color: #9bb0e9;
+  margin-r
 }
 .navbar__container-img2 {
   font-size: 20px;
